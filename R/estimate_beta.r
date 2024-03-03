@@ -9,6 +9,6 @@
 #' @examples
 #' myfunc(3, 5)
 myfunc <- function(y, X) {
-  result <- (t(X) %*% X)^(-1) %*%(X %*% Y)
+  result <- (t(X) %*% X)^(-1) %*%(X %*% y)
   return(result)
 }
