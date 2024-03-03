@@ -2,7 +2,7 @@
 % Please edit documentation in R/estimate_beta.r
 \name{estimate_beta}
 \alias{estimate_beta}
-\title{My first function}
+\title{My second function}
 \usage{
 estimate_beta(y, X)
 }
@@ -15,8 +15,5 @@ estimate_beta(y, X)
 beta_hat An estimate of beta in y = beta X + epsilon
 }
 \description{
-My first function
-}
-\examples{
-estimate_beta(y, X)
+My second function
 }
