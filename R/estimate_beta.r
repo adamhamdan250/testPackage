@@ -5,7 +5,6 @@
 #'
 #' @return beta_hat An estimate of beta in y = beta X + epsilon
 #' @export
-#'
 estimate_beta <- function(y, X) {
   result <- (t(X) %*% X)^(-1) %*%(t(X) %*% y)
   return(result)
